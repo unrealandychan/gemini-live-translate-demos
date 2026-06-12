@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+.env.*
+*.wav
+*.srt
+*.mp3
+*.mp4
+dubbed/
+output/
+manifest.json
+.DS_Store
+venv/
+.venv/
+*.egg-info/
+dist/
