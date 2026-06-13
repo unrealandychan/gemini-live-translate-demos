@@ -31,11 +31,10 @@ from __future__ import annotations
 
 import argparse
 import asyncio
-import struct
 import subprocess
 import sys
 import wave
-from dataclasses import dataclass, field
+from dataclasses import dataclass
 from datetime import timedelta
 from pathlib import Path
 
@@ -307,7 +306,7 @@ def main() -> None:
     output_dir.mkdir(parents=True, exist_ok=True)
 
     if args.url:
-        print(f"🔗 Resolving stream URL via yt-dlp…")
+        print("🔗 Resolving stream URL via yt-dlp…")
         try:
             source = get_stream_url(args.url)
         except RuntimeError as e:
@@ -326,7 +325,7 @@ def main() -> None:
         run_translation(source, args.target, output_dir, stem, is_live=args.live)
     )
 
-    print(f"\n✅ Done!")
+    print("\n✅ Done!")
     print(f"   🔊 Audio   → {result.wav_path}")
     print(f"   📄 Subtitles → {result.srt_path}")
     if result.output_transcript:

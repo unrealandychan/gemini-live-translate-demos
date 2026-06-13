@@ -45,7 +45,7 @@ import argparse
 import asyncio
 import subprocess
 import sys
-from dataclasses import dataclass, field
+from dataclasses import dataclass
 from datetime import timedelta
 from pathlib import Path
 from typing import Generator
