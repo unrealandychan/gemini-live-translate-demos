@@ -1,5 +1,14 @@
 # gemini-live-translate-demos 🌐🎙️
 
+![social preview](assets/social-preview.png)
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/)
+[![Lint](https://github.com/unrealandychan/gemini-live-translate-demos/actions/workflows/ci.yml/badge.svg)](https://github.com/unrealandychan/gemini-live-translate-demos/actions/workflows/ci.yml)
+[![Gemini API](https://img.shields.io/badge/Gemini_3.5-Live_Translate-4285F4?logo=google)](https://ai.google.dev/gemini-api/docs/live-api/live-translate)
+[![yt-dlp](https://img.shields.io/badge/yt--dlp-400%2B_platforms-red)](https://github.com/yt-dlp/yt-dlp)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+
 A collection of practical demo applications for the **Gemini 3.5 Live Translate API** — Google's speech-to-speech translation model supporting 70+ languages with near real-time latency.
 
 > **Model:** `gemini-3.5-live-translate-preview` · **API Docs:** [ai.google.dev/gemini-api/docs/live-api/live-translate](https://ai.google.dev/gemini-api/docs/live-api/live-translate)
